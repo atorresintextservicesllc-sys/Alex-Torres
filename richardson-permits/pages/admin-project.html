@@ -1,0 +1,109 @@
+<!--
+{"path": "/admin-project", "title": "Project", "description": "Project workspace.", "noindex": true, "app": true, "scripts": ["/app.js", "/pdfview.js", "/admin.js"]}
+-->
+<section class="section section--tight app">
+  <div class="container" id="project-view" hidden>
+    <a href="/admin" class="app-back">← All projects</a>
+    <div class="app-head">
+      <div><p class="eyebrow" id="pj-id"></p><h1 id="pj-title"></h1><p class="muted" id="pj-sub"></p></div>
+      <div class="app-status"><label for="pj-status">Status</label><select id="pj-status"></select></div>
+    </div>
+
+    <div class="app-share card">
+      <div><strong>Client portal link</strong><p class="muted small">Give this to the client. They can upload documents, sign, message you, and track status. No password needed.</p></div>
+      <div class="btn-row">
+        <button class="btn btn--primary" type="button" data-share="copy">Copy link</button>
+        <button class="btn btn--dark" type="button" data-share="text">Text it</button>
+        <button class="btn btn--dark" type="button" data-share="email">Email it</button>
+        <button class="btn btn--ghost" type="button" data-share="revoke" title="Invalidate every link sent so far">Reset links</button>
+      </div>
+    </div>
+
+    <nav class="app-tabs" role="tablist" aria-label="Project sections">
+      <button role="tab" aria-selected="true" data-tab="docs">Documents</button>
+      <button role="tab" aria-selected="false" data-tab="sign">Signatures</button>
+      <button role="tab" aria-selected="false" data-tab="details">Details</button>
+      <button role="tab" aria-selected="false" data-tab="activity">Activity</button>
+    </nav>
+
+    <!-- Documents -->
+    <section class="app-panel" data-panel="docs">
+      <div class="grid grid--2">
+        <div class="card">
+          <h2>Requested from client</h2>
+          <ul class="req-list" id="requests"></ul>
+          <form id="req-form" class="inline-form">
+            <input name="label" placeholder="e.g. Signed contract, COI, NOA for tile" aria-label="Document to request" required>
+            <button class="btn btn--primary" type="submit">Request</button>
+          </form>
+          <div class="chips chips--quick" id="quick-requests"></div>
+        </div>
+        <div class="card">
+          <h2>Upload files</h2>
+          <div class="upload-opts">
+            <label>Type <select id="up-kind"><option value="document">Document</option><option value="drawing">Drawing / plans</option><option value="photo">Photo</option><option value="packet">Permit packet</option><option value="report">Report</option><option value="other">Other</option></select></label>
+            <label class="check"><input type="checkbox" id="up-internal"> Staff only</label>
+          </div>
+          <label class="dropzone" id="staff-drop"><input type="file" multiple hidden><strong>Drop files here</strong> or click to choose<small>PDF, images, Office, DWG/DXF, ZIP, up to 250 MB</small></label>
+          <div class="up-list" id="staff-up-list"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Files</h2>
+        <div class="table-wrap"><table class="app-table"><thead><tr><th>File</th><th>Type</th><th>From</th><th>Visible to client</th><th></th></tr></thead><tbody id="files"></tbody></table></div>
+      </div>
+    </section>
+
+    <!-- Signatures -->
+    <section class="app-panel" data-panel="sign" hidden>
+      <div class="card">
+        <div class="app-head app-head--small"><h2>Signature requests</h2><button class="btn btn--primary" type="button" id="sign-new">+ Send a PDF for signature</button></div>
+        <p class="muted small">For contracts, authorizations, affidavits and owner consents. <strong>Documents that must be notarized</strong> (Notice of Commencement, some affidavits) can't be e-signed. Use remote online notarization (RON) or a mobile notary.</p>
+        <div class="table-wrap"><table class="app-table"><thead><tr><th>Document</th><th>Signer</th><th>Status</th><th></th></tr></thead><tbody id="signing"></tbody></table></div>
+      </div>
+      <div class="card" id="sign-setup" hidden>
+        <h2>New signature request</h2>
+        <div class="form">
+          <div class="field field--half"><label for="sg-file">PDF from this project</label><select id="sg-file"></select></div>
+          <div class="field field--half"><label for="sg-title">Title</label><input id="sg-title" placeholder="e.g. Permit authorization letter"></div>
+          <div class="field field--half"><label for="sg-name">Signer name</label><input id="sg-name"></div>
+          <div class="field field--half"><label for="sg-email">Signer email</label><input id="sg-email" type="email"></div>
+        </div>
+        <div class="place-bar">
+          <span>Place fields:</span>
+          <button class="btn btn--ghost" type="button" data-place="signature">Signature</button>
+          <button class="btn btn--ghost" type="button" data-place="initials">Initials</button>
+          <button class="btn btn--ghost" type="button" data-place="name">Printed name</button>
+          <button class="btn btn--ghost" type="button" data-place="date">Date</button>
+          <span class="muted small" id="place-hint">Choose a field, then click on the page. Drag boxes to adjust.</span>
+        </div>
+        <div class="pdf-stack" id="sg-pdf"><p class="muted">Choose a PDF above.</p></div>
+        <div class="btn-row"><button class="btn btn--primary" type="button" id="sg-send">Create signing link</button><button class="btn btn--ghost" type="button" id="sg-cancel">Cancel</button></div>
+      </div>
+    </section>
+
+    <!-- Details -->
+    <section class="app-panel" data-panel="details" hidden>
+      <form id="details-form" class="card">
+        <div class="grid grid--2">
+          <fieldset><legend>Client (contractor)</legend><div class="form" id="client-fields"></div></fieldset>
+          <fieldset><legend>Job / property</legend><div class="form" id="job-fields"></div></fieldset>
+        </div>
+        <button class="btn btn--primary" type="submit">Save details</button>
+      </form>
+    </section>
+
+    <!-- Activity -->
+    <section class="app-panel" data-panel="activity" hidden>
+      <div class="card">
+        <form id="note-form" class="inline-form">
+          <input name="text" placeholder="Add an update (clients see it unless Staff only)" aria-label="Update" required>
+          <label class="check"><input type="checkbox" name="internal"> Staff only</label>
+          <button class="btn btn--primary" type="submit">Post</button>
+        </form>
+        <ol class="timeline-list" id="timeline"></ol>
+      </div>
+    </section>
+  </div>
+  <div class="container" id="project-login" hidden><p class="card">Please <a href="/admin">sign in</a> first.</p></div>
+</section>

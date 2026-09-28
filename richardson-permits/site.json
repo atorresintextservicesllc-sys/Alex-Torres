@@ -1,0 +1,563 @@
+{
+  "_README": "All business FACTS live here. Empty strings show on the site as yellow [TODO] marks and are listed when you run `npm run build`. Never put made-up reviews, turnaround numbers, or stats in this file.",
+  "name": "Richardson Professional Services LLC",
+  "legalName": "Richardson Professional Services LLC",
+  "brandSub": "Permit Expediting & Admin Services",
+  "monogram": "RP",
+  "owner": "Natasha",
+  "themeClass": "theme-natasha",
+  "description": "Richardson Professional Services LLC: flat-fee permit expediting and administrative services for contractors, roofers and restoration companies in Broward, Miami-Dade and Palm Beach.",
+  "footerBlurb": "Flat-fee permit expediting and administrative services for contractors across South Florida. Professionalism · Reliability · Results.",
+  "schemaType": "ProfessionalService",
+  "phone": "(754) 214-9077",
+  "sms": "",
+  "email": "nrproservicesllc@gmail.com",
+  "url": "https://richardsonprofessionalservices.com",
+  "hours": "Mon–Fri 8:00am–5:00pm",
+  "openingHours": "Mo-Fr 08:00-17:00",
+  "address": {
+    "street": "",
+    "city": "",
+    "state": "FL",
+    "zip": ""
+  },
+  "colors": {
+    "accent": "#be185d",
+    "onAccent": "#ffffff",
+    "theme": "#26262b"
+  },
+  "faviconRadius": 16,
+  "fonts": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;600;700&display=swap",
+  "nav": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/services",
+      "label": "Services"
+    },
+    {
+      "href": "/pricing",
+      "label": "Pricing"
+    },
+    {
+      "href": "/permits",
+      "label": "Permit Guide"
+    },
+    {
+      "href": "/who-we-help",
+      "label": "Who We Help"
+    },
+    {
+      "href": "/how-it-works",
+      "label": "How It Works"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact"
+    }
+  ],
+  "cta": {
+    "label": "Start a Permit",
+    "short": "Start permit",
+    "href": "/contact",
+    "icon": "stamp"
+  },
+  "ctaBand": {
+    "heading": "Got a job waiting on a permit?",
+    "text": "Send us the address and scope. We'll tell you what's needed, what's missing and what happens next.",
+    "buttonClass": "btn--light"
+  },
+  "areas": [
+    {
+      "county": "Broward County",
+      "cities": [
+        "Fort Lauderdale",
+        "Hollywood",
+        "Pembroke Pines",
+        "Coral Springs",
+        "Pompano Beach",
+        "Davie",
+        "Plantation",
+        "Sunrise",
+        "Miramar",
+        "Deerfield Beach",
+        "Broward County (unincorporated)"
+      ]
+    },
+    {
+      "county": "Miami-Dade County",
+      "cities": [
+        "City of Miami",
+        "Miami Beach",
+        "Hialeah",
+        "Doral",
+        "Coral Gables",
+        "Homestead",
+        "North Miami",
+        "Miami Gardens",
+        "Aventura",
+        "Miami-Dade County (unincorporated)"
+      ]
+    },
+    {
+      "county": "Palm Beach County",
+      "cities": [
+        "West Palm Beach",
+        "Boca Raton",
+        "Delray Beach",
+        "Boynton Beach",
+        "Jupiter",
+        "Palm Beach Gardens",
+        "Wellington",
+        "Lake Worth Beach",
+        "Palm Beach County (unincorporated)"
+      ]
+    }
+  ],
+  "about": {
+    "story": []
+  },
+  "testimonials": [],
+  "testimonialsHeading": "Contractors who stopped chasing permits",
+  "_testimonials_example": {
+    "quote": "Real words from a real client, with their permission.",
+    "name": "First L.",
+    "role": "Owner, Example Roofing Co."
+  },
+  "stats": [],
+  "_stats_example": [
+    {
+      "value": "",
+      "label": "permits processed"
+    },
+    {
+      "value": "",
+      "label": "municipalities filed in"
+    }
+  ],
+  "projects": [],
+  "projectCategories": [],
+  "form": {
+    "subject": "New permit request — website",
+    "submitLabel": "Send my permit request",
+    "note": "We'll review it and call you back to confirm documents and next steps.",
+    "successHeading": "Request received",
+    "successText": "Thanks! We'll review the job and reach out shortly with next steps and the document list.",
+    "fields": [
+      {
+        "name": "company",
+        "label": "Company",
+        "type": "text",
+        "required": true,
+        "half": true,
+        "autocomplete": "organization"
+      },
+      {
+        "name": "name",
+        "label": "Your name",
+        "type": "text",
+        "required": true,
+        "half": true,
+        "autocomplete": "name"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "tel",
+        "required": true,
+        "half": true,
+        "autocomplete": "tel"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "half": true,
+        "autocomplete": "email"
+      },
+      {
+        "name": "contractor_license",
+        "label": "Contractor license #",
+        "type": "text",
+        "half": true,
+        "placeholder": "e.g. CCC / CGC / CBC number"
+      },
+      {
+        "name": "municipality",
+        "label": "City / municipality",
+        "type": "text",
+        "required": true,
+        "half": true,
+        "placeholder": "e.g. Fort Lauderdale"
+      },
+      {
+        "name": "project_type",
+        "label": "Project type",
+        "type": "select",
+        "required": true,
+        "half": true,
+        "options": [
+          "Re-roof",
+          "New roof",
+          "Restoration / build-back",
+          "Concrete / structural repair",
+          "Alteration / remodel",
+          "New construction",
+          "Windows & doors",
+          "Solar",
+          "Other"
+        ]
+      },
+      {
+        "name": "urgency",
+        "label": "How urgent?",
+        "type": "select",
+        "required": true,
+        "half": true,
+        "options": [
+          "Standard",
+          "Need it this week",
+          "Rush / ASAP",
+          "Already submitted — need comments cleared"
+        ]
+      },
+      {
+        "name": "address",
+        "label": "Job address",
+        "type": "text",
+        "required": true,
+        "autocomplete": "street-address"
+      },
+      {
+        "name": "scope",
+        "label": "Scope of work",
+        "type": "textarea",
+        "required": true,
+        "placeholder": "What's the work, roughly what's the contract value, and where are you in the process (plans ready, already submitted, comments received)?"
+      }
+    ]
+  },
+  "crossLink": {
+    "label": "",
+    "name": "",
+    "url": ""
+  },
+  "_photos_note": "Stock photos from Unsplash (free commercial use under the Unsplash License, no attribution required; credits kept here anyway).",
+  "photos": {
+    "roofers": {
+      "id": "photo-1635424709845-3a85ad5e1f5e",
+      "alt": "Two roofers in harnesses working on a shingle roof",
+      "credit": "Raze Solar"
+    },
+    "roofer": {
+      "id": "photo-1635424709961-f3a150459ad4",
+      "alt": "Roofer kneeling on a roof with a safety line",
+      "credit": "Raze Solar"
+    },
+    "tile": {
+      "id": "photo-1726589004565-bedfba94d3a2",
+      "alt": "Crew working on a clay tile roof",
+      "credit": "Christer Lässman"
+    },
+    "plans": {
+      "id": "photo-1608303588026-884930af2559",
+      "alt": "Hands reviewing construction plans on a table",
+      "credit": "Pedro Miranda"
+    },
+    "plans2": {
+      "id": "photo-1503387762-592deb58ef4e",
+      "alt": "Hands marking up construction drawings",
+      "credit": "Daniel McCullough"
+    },
+    "forms": {
+      "id": "photo-1631651693480-97f1132e333d",
+      "alt": "Application forms and a pen on a desk",
+      "credit": "2H Media"
+    },
+    "sign": {
+      "id": "photo-1763729805496-b5dbf7f00c79",
+      "alt": "Person signing a document",
+      "credit": "Jakub Żerdzicki"
+    },
+    "site": {
+      "id": "photo-1626885930974-4b69aa21bbf9",
+      "alt": "Contractors in safety vests on a job site",
+      "credit": "Joe Holland"
+    },
+    "review": {
+      "id": "photo-1581092446327-9b52bd1570c2",
+      "alt": "Contractor and client reviewing plans together",
+      "credit": "ThisisEngineering"
+    },
+    "solar": {
+      "id": "photo-1624397640148-949b1732bb0a",
+      "alt": "Installer carrying a solar panel across a roof",
+      "credit": "Bill Mead"
+    },
+    "flood": {
+      "id": "photo-1657069343999-39722b95f1d8",
+      "alt": "Flood water around a house after a storm",
+      "credit": "Wes Warren"
+    },
+    "paper": {
+      "id": "photo-1631557776808-91908aba7ca0",
+      "alt": "Pen resting on a stack of completed forms",
+      "credit": "2H Media"
+    },
+    "draft": {
+      "id": "photo-1503387762-592deb58ef4e",
+      "alt": "Hands marking up construction drawings",
+      "credit": "Daniel McCullough"
+    }
+  },
+  "_pricing_note": "Straight from Richardson Professional Services' published price sheet. Update here and the Pricing page + home teaser follow.",
+  "pricing": {
+    "groups": [
+      {
+        "title": "Building permit only",
+        "items": [
+          [
+            "Small",
+            "Re-roof, windows/doors, fence, shed, pavers",
+            "$450"
+          ],
+          [
+            "Medium",
+            "Interior remodel, small deck, patio cover",
+            "$700"
+          ],
+          [
+            "Large",
+            "Additions, pools, structural, sealed plans",
+            "from $1,200"
+          ]
+        ]
+      },
+      {
+        "title": "Trade permit only",
+        "items": [
+          [
+            "Plumbing permit",
+            "Plumbing work only, handled start to finish",
+            "$300"
+          ],
+          [
+            "Electrical permit",
+            "Electrical work only, handled start to finish",
+            "$300"
+          ],
+          [
+            "Plumbing + electrical",
+            "Both trades on one job, no building permit",
+            "$550"
+          ]
+        ]
+      },
+      {
+        "title": "Building + sub permits (same job)",
+        "items": [
+          [
+            "Small building + 1 sub permit",
+            "Plumbing or electrical",
+            "$700"
+          ],
+          [
+            "Small building + plumbing + electrical",
+            "Small project needing both trades",
+            "$900"
+          ],
+          [
+            "Each additional sub permit",
+            "On a medium or large building job",
+            "+$250"
+          ]
+        ]
+      },
+      {
+        "title": "Other services",
+        "items": [
+          [
+            "Inspections through close-out",
+            "Existing/open permit: we schedule inspections through final",
+            "$200"
+          ],
+          [
+            "Contractor registration",
+            "Per city or county",
+            "$150"
+          ],
+          [
+            "Change of contractor",
+            "New application under the new contractor",
+            "$350"
+          ],
+          [
+            "NOC recording service",
+            "We record your NOC (county recording fees extra)",
+            "$40"
+          ],
+          [
+            "Remote online notarization (RON)",
+            "General notary work, per notarial act",
+            "$25"
+          ],
+          [
+            "Mobile notary (Broward)",
+            "Per notarial act, plus travel agreed in advance: $35 (0–10 mi) / $50 (11–20 mi)",
+            "$10 + travel"
+          ]
+        ]
+      },
+      {
+        "title": "Administrative support (hourly)",
+        "items": [
+          [
+            "General construction admin",
+            "Scheduling, document control, sub/vendor follow-up, data entry, filing",
+            "$45 / hr"
+          ],
+          [
+            "Permit & code consulting",
+            "Open/expired permit research, heavy comment responses, meetings with the building department",
+            "$65 / hr"
+          ],
+          [
+            "Billing increments",
+            "15-minute increments; 1-hour minimum for one-off requests",
+            ""
+          ]
+        ]
+      },
+      {
+        "title": "Add-ons",
+        "items": [
+          [
+            "Additional resubmittal",
+            "After the 2 included rounds of comments",
+            "$100 each"
+          ],
+          [
+            "Rush service",
+            "Submission within 48 hours of complete documents",
+            "+25%"
+          ],
+          [
+            "Mobile notary: weekend, holiday or urgent",
+            "",
+            "+$25"
+          ],
+          [
+            "Mobile notary waiting time",
+            "After a 15-minute grace period",
+            "$15 / 15 min"
+          ]
+        ]
+      }
+    ],
+    "included": [
+      "Application prep: building permit application (BPA) and Notice of Commencement, including folio, legal description and owner-of-record lookups",
+      "Submission to the city or county",
+      "Email and phone communication with the permitting office on your behalf",
+      "Status tracking and follow-up until approval, with uploads to your project portal or shared folder",
+      "Up to 2 rounds of plan-review comment responses and resubmittals"
+    ],
+    "excluded": [
+      "City, county and agency fees, including NOC recording (paid by the client at cost)",
+      "Architectural drawings, engineered plans, surveys or design services",
+      "Site visits and in-person inspection attendance (available on request)",
+      "Plan corrections that require a licensed design professional"
+    ],
+    "terms": [
+      "50% deposit before work begins; 50% on completion (permit issued or closed)",
+      "Retainer plans are billed monthly in advance",
+      "Pay by Zelle, or ACH if Zelle isn't an option",
+      "Quotes are valid for 30 days"
+    ]
+  },
+  "_retainers_note": "PROPOSED by PRICING_RESEARCH.md: confirm with Natasha before launch. `rate` = numeric amount the invoice builder uses; `payLink` = optional Stripe/Square subscription link.",
+  "retainers": [
+    {
+      "name": "Admin Retainer",
+      "for": "Ongoing office and paperwork support for contractors",
+      "price": "$400",
+      "per": "/ month",
+      "rate": 400,
+      "period": "monthly retainer, 10 hours",
+      "includes": [
+        "10 hours of admin support each month ($40/hr vs. $45 ad hoc)",
+        "Billed in 15-minute increments, no per-task minimum",
+        "Extra hours at $40/hr",
+        "Unused hours roll over one month"
+      ],
+      "payLink": ""
+    },
+    {
+      "name": "10-Permit Plan",
+      "for": "Roofers and restoration companies with steady volume",
+      "price": "$3,900",
+      "per": "/ month",
+      "rate": 3900,
+      "period": "monthly retainer, up to 10 small permits",
+      "featured": true,
+      "includes": [
+        "Up to 10 small building permits a month (about $390 each)",
+        "Priority handling on every submittal",
+        "Extra permits $400 each",
+        "Unused permits roll over one month",
+        "Billed monthly in advance, no 50/50 deposits"
+      ],
+      "payLink": ""
+    },
+    {
+      "name": "Volume Partner",
+      "for": "Contractors pulling 5+ permits a month who want flexibility",
+      "price": "Custom",
+      "per": "pricing",
+      "period": "volume pricing",
+      "includes": [
+        "Discount on base permit fees, based on monthly volume",
+        "Pay per permit, no monthly commitment",
+        "One point of contact for all your jobs",
+        "Rates reviewed quarterly"
+      ],
+      "payLink": ""
+    }
+  ],
+  "payments": {
+    "_note": "Payment destinations shown on invoices come ONLY from here, never from an invoice link.",
+    "zelle": "nrproservicesllc@gmail.com",
+    "zelleName": "Richardson Professional Services LLC",
+    "ach": "Available on request. Email us and we'll send bank details securely.",
+    "cardLink": "",
+    "_cardLink_note": "Optional: paste a Stripe or Square payment link (customer enters amount) to show a 'Pay by card' button.",
+    "invoicePrefix": "RPS-",
+    "dueDays": 7,
+    "terms": "Permit work: 50% deposit before work begins, balance on completion. Retainers are billed monthly in advance. City and county fees are separate and paid at cost."
+  },
+  "footerLinks": [
+    {
+      "href": "/about",
+      "label": "About"
+    },
+    {
+      "href": "/permit-checker",
+      "label": "Permit checker"
+    },
+    {
+      "href": "/guides/hvhz-roofing-permits-broward",
+      "label": "HVHZ roofing guide"
+    },
+    {
+      "href": "/guides/notice-of-commencement-florida",
+      "label": "NOC guide"
+    },
+    {
+      "href": "/pay",
+      "label": "Pay an invoice"
+    }
+  ],
+  "_domain_note": "Live at richardsonprofessionalservices.com. Legal name (invoices, footer): Richardson Professional Services LLC."
+}

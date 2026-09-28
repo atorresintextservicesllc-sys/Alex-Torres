@@ -1,0 +1,34 @@
+<!--
+{"path": "/sign", "title": "Review & sign", "description": "Review and sign a document electronically.", "noindex": true, "app": true, "scripts": ["/app.js", "/pdfview.js", "/sign.js"]}
+-->
+<section class="section section--tight app">
+  <div class="container sign-page" id="sign-view" hidden>
+    <div class="app-head">
+      <div><p class="eyebrow">Signature requested by {{name}}</p><h1 id="sn-title"></h1><p class="muted" id="sn-sub"></p></div>
+      <a class="btn btn--ghost" id="sn-download" target="_blank" rel="noopener">Download PDF</a>
+    </div>
+    <p class="notice" id="sn-done" hidden></p>
+    <p class="muted small" id="sn-hint">Scroll through the document. Highlighted boxes show where your signature, initials, name or date will go.</p>
+    <div class="pdf-stack" id="sn-pdf"><p class="muted">Loading document…</p></div>
+
+    <form class="form-card sign-form" id="sn-form">
+      <h2>Adopt &amp; sign</h2>
+      <div class="form">
+        <div class="field field--half"><label for="sn-name">Full legal name</label><input id="sn-name" name="name" autocomplete="name" required></div>
+        <div class="field field--half"><label for="sn-email">Email (for your records)</label><input id="sn-email" name="email" type="email" autocomplete="email"></div>
+      </div>
+      <div class="sig-tabs" role="tablist">
+        <button type="button" role="tab" aria-selected="true" data-mode="draw">Draw</button>
+        <button type="button" role="tab" aria-selected="false" data-mode="type">Type</button>
+      </div>
+      <div class="sig-pad-wrap">
+        <canvas id="sn-pad" class="sig-pad" width="700" height="180" aria-label="Signature pad: draw your signature"></canvas>
+        <button type="button" class="btn btn--ghost btn--sm" id="sn-clear">Clear</button>
+      </div>
+      <label class="check sign-consent"><input type="checkbox" id="sn-consent" required> <span id="sn-consent-text"></span></label>
+      <button class="btn btn--primary btn--block" type="submit" id="sn-submit">Sign document</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+  <div class="container" id="sign-error" hidden><div class="card center"><h1>This signing link isn't working</h1><p>It may be incomplete, cancelled, or reset. Contact {{name}} at {{phone}} for a new link.</p></div></div>
+</section>

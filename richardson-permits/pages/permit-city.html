@@ -1,0 +1,53 @@
+<!--
+{"collection": "jurisdictions", "path": "/permits/{slug}", "title": "{name} Roofing Permit Requirements", "fullTitle": "{name} Roofing Permit Requirements & Permit Runner | Richardson Professional Services LLC", "description": "What you need for a re-roof permit in {name}, {county} County, FL: application forms, roof-system documents, product approvals and how to submit. Flat-fee permit expediting.", "priority": 0.6}
+-->
+<section class="page-hero">
+  {{> heroImg tile}}
+  <div class="container">
+    <p class="eyebrow">{{item.county}} County · Permit guide</p>
+    <h1>{{item.name}} roofing permit requirements</h1>
+    <p class="lead">The documents, portal and filing details for a re-roof permit in {{item.name}}, plus a flat-fee permit runner to handle it for you.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container split split--wide-left">
+    <div>
+      <p class="eyebrow">What to submit</p>
+      <h2>Documents for a {{item.name}} re-roof permit</h2>
+      <p class="muted">From our permit library for {{item.name}}. Pick your roof type to see its system forms.</p>
+      {{> jDocs}}
+      <p class="muted small">Requirements change. We confirm the current forms with the {{item.name}} building department before every submittal. Last reviewed {{> jUpdated}}.</p>
+    </div>
+    <aside>
+      <div class="card">
+        <h3>{{item.name}} at a glance</h3>
+        {{> jFacts}}
+      </div>
+      <div class="card card--cta">
+        <h3>Want us to pull it?</h3>
+        <p>Flat fee. We prep the forms, submit, clear comments and get it issued.</p>
+        <a class="btn btn--primary btn--block" href="/contact?municipality={{=item.name}}&project_type=Re-roof">Start a {{item.name}} permit</a>
+        <a class="btn btn--ghost btn--block" href="/pricing">See pricing</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section--alt section--tight">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">FAQ</p><h2>{{item.name}} permit questions</h2></div>
+    {{> jFaq}}
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <h2>Other {{item.county}} County permit guides</h2>
+    {{> jNearby}}
+    <p class="mt"><a href="/permits">All {{> jCount}} South Florida permit guides →</a> · <a href="/permit-checker">Permit requirements checker →</a></p>
+  </div>
+</section>
+
+{{> jSchema}}
+{{> ctaBand}}

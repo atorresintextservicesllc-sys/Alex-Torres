@@ -1,0 +1,41 @@
+<!--
+{"path": "/portal", "title": "Your project", "description": "Your permit project portal.", "noindex": true, "app": true, "scripts": ["/app.js", "/portal.js"]}
+-->
+<section class="section section--tight app">
+  <div class="container" id="portal-view" hidden>
+    <div class="app-head">
+      <div><p class="eyebrow">Your permit project</p><h1 id="pt-title"></h1><p class="muted" id="pt-sub"></p></div>
+      <div class="pt-status"><span class="muted small">Status</span><strong id="pt-status"></strong></div>
+    </div>
+    <ol class="progress-steps" id="pt-steps" aria-label="Project progress"></ol>
+
+    <div class="grid grid--2">
+      <div class="card">
+        <h2>Action needed</h2>
+        <ul class="req-list" id="pt-actions"></ul>
+      </div>
+      <div class="card">
+        <h2>Send us files</h2>
+        <p class="muted small">Plans, drawings, contracts, insurance certificates, photos. Anything for this job.</p>
+        <div class="upload-opts"><label>These are <select id="pt-kind"><option value="document">Documents</option><option value="drawing">Drawings / plans</option><option value="photo">Photos</option></select></label></div>
+        <label class="dropzone" id="pt-drop"><input type="file" multiple hidden><strong>Drop files here</strong> or tap to choose<small>Up to 250 MB each</small></label>
+        <div class="up-list" id="pt-up-list"></div>
+      </div>
+    </div>
+
+    <div class="grid grid--2">
+      <div class="card">
+        <h2>Your files</h2>
+        <ul class="file-list" id="pt-files"></ul>
+      </div>
+      <div class="card">
+        <h2>Messages &amp; updates</h2>
+        <form id="pt-msg" class="inline-form"><input name="text" placeholder="Send a message to our team" aria-label="Message" required><button class="btn btn--primary" type="submit">Send</button></form>
+        <ol class="timeline-list" id="pt-timeline"></ol>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="portal-error" hidden>
+    <div class="card center"><h1>This link isn't working</h1><p>It may be incomplete or it may have been reset. Contact us for a new link: <a href="{{=tel}}">{{phone}}</a>.</p></div>
+  </div>
+</section>

@@ -1,0 +1,3127 @@
+{
+ "_meta": {
+  "generated": "2026-09-21",
+  "count": 71,
+  "note": "Form titles from our permit library; portal facts from public municipal pages. Requirements change. Verify with the building department before filing.",
+  "noc": {
+   "Palm Beach": "https://www.mypalmbeachclerk.com/departments/recording/notice-of-commencement",
+   "Broward": "https://www.broward.org/RecordsTaxesTreasury/Records/Pages/NoticeofCommencement.aspx"
+  }
+ },
+ "jurisdictions": [
+  {
+   "slug": "atlantis",
+   "ahj": "Atlantis",
+   "name": "Atlantis",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person/paper",
+   "portalUrl": "https://www.atlantisfl.gov/156/Building-Department",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-965-1744 x112",
+   "notes": "Contractors must register with the city first. Permits submitted in person at 260 Orange Tree Dr.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Owner Builder Affidavit"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "belle-glade",
+   "ahj": "Belle_Glade",
+   "name": "Belle Glade",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person/paper",
+   "portalUrl": "https://www.bellegladegov.com/building",
+   "online": "no",
+   "upload": "unknown",
+   "phone": "561-996-0100",
+   "notes": "No online roofing submission found; submit at City Hall.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Reroof Mitigation",
+    "Owner Builder Affidavit",
+    "Permit Authorization",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "boca-raton",
+   "ahj": "Boca_Raton",
+   "name": "Boca Raton",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov Self Service (Boca eHub) + Boca ePlans (ProjectDox)",
+   "portalUrl": "https://bocaratonfl-energovpub.tylerhost.net/Apps/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-393-7930",
+   "notes": "bocaehub.com redirects to the portal; plan-review uploads via Boca ePlans (ProjectDox).",
+   "confidence": "high",
+   "documents": [
+    "Boca Permit Packet",
+    "Re-Roofing Mitigation Package",
+    "Re-Nailing Secondary Water Barrier Affidavit",
+    "Roof Supplemental Acknowledgment Memo",
+    "Single Family Re-Roofing Affidavit",
+    "Supplemental Roof",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Boca Re-Roofing Mitigation Shingle",
+     "Boca Supplemental Roofing Shingle",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Boca Re-Roofing Mitigation Tile",
+     "Boca Supplemental Roofing Tile",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Boca Re-Roofing Mitigation Metal",
+     "Boca Supplemental Roofing Metal",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Boca Re-Roofing Mitigation Flat",
+     "Boca Supplemental Roofing Flat",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "boynton-beach",
+   "ahj": "Boynton_Beach",
+   "name": "Boynton Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "SagesGov",
+   "portalUrl": "https://www.sagesgov.com/boyntonbeach-fl",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-742-6000",
+   "notes": "Re-roofs on 1&2-family by licensed roofer auto-issue as INSTANT permits on payment + doc upload. All PDFs must be unprotected. Re-Roof Affidavit/Application required.",
+   "confidence": "high",
+   "documents": [
+    "BB Asbestos Notification",
+    "BB Notice of Commencement",
+    "BB Owner Builder Hot Process Roofing",
+    "BB Owner Builder Affidavit",
+    "BB Re Roof Affidavit Application",
+    "BB Windload Chart 2020",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "briny-breezes",
+   "ahj": "Briny_Breezes",
+   "name": "Briny Breezes",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person/paper",
+   "portalUrl": "https://brinybreezes.us/home",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-272-5495",
+   "notes": "Paper application to Town Hall; contractor must sign + notarize application and contract.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Packet",
+    "Owner Builder Affidavit",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "cloud-lake",
+   "ahj": "Cloud_Lake",
+   "name": "Cloud Lake",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person/paper (Town Hall)",
+   "portalUrl": "https://cloudlakefl.us/",
+   "online": "no",
+   "upload": "unknown",
+   "phone": "561-686-2815",
+   "notes": "Very small town; permitting via Town Clerk. No portal confirmed.",
+   "confidence": "low",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "delray-beach",
+   "ahj": "Delray_Beach",
+   "name": "Delray Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov Self Service (eServices) + ePlans",
+   "portalUrl": "https://cityofdelraybeachfl-energovweb.tylerhost.net/apps/selfservice/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-243-7200",
+   "notes": "Re-roof = EXPRESS permit (~3 business days) if all docs uploaded up front. Contractor registration must be current.",
+   "confidence": "high",
+   "documents": [
+    "DEL Asbestos Affidavit",
+    "DEL Notice of Commencement",
+    "DEL Owner Builder Affidavit",
+    "DEL Release of Contractor Affidavit",
+    "DEL Roof Mitigation",
+    "DEL Roof Renail Affidavit",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "glen-ridge",
+   "ahj": "Glen_Ridge",
+   "name": "Glen Ridge",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person/paper (Town Hall)",
+   "portalUrl": "https://www.townofglenridgefl.com/building/page/building-permit-information",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-616-7034",
+   "notes": "Forms from Town Hall, submitted there.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "greenacres",
+   "ahj": "Greenacres",
+   "name": "Greenacres",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler eSuite Permits",
+   "portalUrl": "https://esuite.greenacresfl.gov/eSuite.Permits/WelcomePage.aspx",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "561-642-2052",
+   "notes": "Must be city-registered with a city license # to activate an eSuite account (call 561-642-2062). Public portal mainly schedule/pay/search; full online upload unconfirmed.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Re Roof Package",
+    "Re Roof Checklist",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "gulf-stream",
+   "ahj": "Gulf_Stream",
+   "name": "Gulf Stream",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (via Highland Beach interlocal)",
+   "portalUrl": "https://mgoconnect.org/cp?JID=466",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-276-5116",
+   "notes": "100% digital, no paper. Submit under Gulf Stream jurisdiction in the Highland Beach MGO portal. Register with BOTH towns; signed Construction Handbook required.",
+   "confidence": "high",
+   "documents": [
+    "Permit Fee Schedule",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "haverhill",
+   "ahj": "Haverhill",
+   "name": "Haverhill",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Email/in-person",
+   "portalUrl": "https://www.townofhaverhill-fl.gov/building",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-689-0370 x2",
+   "notes": "Drop off or email application to permits@townofhaverhill-fl.gov. Register with the Town first.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Roof Checklist Installation Forms",
+    "Notice of Commencement",
+    "Owner Builder Disclosure",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "highland-beach",
+   "ahj": "Highland_Beach",
+   "name": "Highland Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO Connect)",
+   "portalUrl": "https://mgoconnect.org/cp?JID=462",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-278-4540",
+   "notes": "All submittals online via MGO; no paper. Only the Jan-2024 Universal Building Permit Application accepted.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Roofing Forms",
+    "Roof Tile Uplift Test Requirement",
+    "Notice of Commencement",
+    "Owner Builder Disclosure"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "hypoluxo",
+   "ahj": "Hypoluxo",
+   "name": "Hypoluxo",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "In-person",
+   "portalUrl": "https://www.hypoluxo.org/bz",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-582-0155",
+   "notes": "In-person submittal; electronic plan copy may be required. Current contractor registration # required on all apps.",
+   "confidence": "high",
+   "documents": [
+    "Permit Application",
+    "Roofing Contractor Affidavit",
+    "Contractor Registration",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "juno-beach",
+   "ahj": "Juno_Beach",
+   "name": "Juno Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO Connect)",
+   "portalUrl": "https://www.mgoconnect.org/",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "561-656-0302",
+   "notes": "MGO confirmed for fee payment + inspection scheduling; full online application/upload not clearly documented. COIs must list Town as cert holder.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "jupiter",
+   "ahj": "Jupiter",
+   "name": "Jupiter",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov Self Service (JCDS)",
+   "portalUrl": "https://cds.jupiter.fl.us/EnerGov_Prod/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-741-2286",
+   "notes": "JCDS self-service: apply, status, plan-review comments, inspections. Account setup required.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Roofing Worksheet",
+    "Owner Builder Affidavit",
+    "Agent Authorization",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "jupiter-inlet-colony",
+   "ahj": "Jupiter_Inlet_Colony",
+   "name": "Jupiter Inlet Colony",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO Connect)",
+   "portalUrl": "https://www.mgoconnect.org/auth/cplogin",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-746-3787 x1",
+   "notes": "Register as contractor in MGO before applying. Alt: in person or email Building@jupiterinletcolony.gov.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Roofing Contractor Affidavit",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Certificate of Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lake-clarke-shores",
+   "ahj": "Lake_Clarke_Shores",
+   "name": "Lake Clarke Shores",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.townoflcs.com/cds/page/building-permits",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-964-1515",
+   "notes": "No paper accepted; entire process online via MGO. Contractors + owner/builders must register.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lake-park",
+   "ahj": "Lake_Park",
+   "name": "Lake Park",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "CAP Government EPR (GeoCivix)",
+   "portalUrl": "https://www.capfla.com",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-881-3319",
+   "notes": "Register through CAP at capfla.com; upload all docs through CAP/GeoCivix. Building official is C.A.P. Government Inc.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Roof Permit Checklist",
+    "Roof Metal Sheathing Affidavit",
+    "Tin Tag Sheathing Affidavit",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lake-worth-beach",
+   "ahj": "Lake_Worth_Beach",
+   "name": "Lake Worth Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "City portal (apply/upload) + Click2Gov (status/pay)",
+   "portalUrl": "https://portal.lakeworthbeachfl.gov/online-services/building-permit-application/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-586-1600",
+   "notes": "Online application lists roofing as a type; accepts uploads (up to 1000MB) + a notarized final form. Separate roofing permit required.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "LWB Building Permit Application Shingle",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "LWB Building Permit Application Tile",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "LWB Building Permit Application Metal",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "LWB Building Permit Application Flat",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lantana",
+   "ahj": "Lantana",
+   "name": "Lantana",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Mail/in-person",
+   "portalUrl": "https://www.lantana.org/158/Building-Permits",
+   "online": "no",
+   "upload": "no",
+   "phone": "561-540-5060",
+   "notes": "Mail or in-person at 504 Greynolds Circle; 2 paper copies + 1 digital. Cash/check/MO only, no online pay. Register with Town.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Owner Builder Affidavit",
+    "Contractor Registration",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "loxahatchee-groves",
+   "ahj": "Loxahatchee_Groves",
+   "name": "Loxahatchee Groves",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.mgoconnect.org/cp?JID=490",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-793-2418",
+   "notes": "Electronic-only since Jan 13 2025. Re-roof affidavit + photos as PDF to MGO. Affidavit + engineer cert accepted for sheathing/metal/flat w/ photos.",
+   "confidence": "high",
+   "documents": [
+    "Re Roof Packet 2026",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Registration",
+    "Building Permit Application"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "manalapan",
+   "ahj": "Manalapan",
+   "name": "Manalapan",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.mgoconnect.org/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-585-9477",
+   "notes": "MGO for all new permits; create account to submit + schedule inspections.",
+   "confidence": "medium",
+   "documents": [
+    "Re Roof Application Packet",
+    "Contractor Business Registration",
+    "Authorized Agent",
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "mangonia-park",
+   "ahj": "Mangonia_Park",
+   "name": "Mangonia Park",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Paper/email (no portal confirmed)",
+   "portalUrl": "https://www.tompfl.com/ds/page/building-permits-applications",
+   "online": "unknown",
+   "upload": "unknown",
+   "phone": "561-848-1235",
+   "notes": "Printable applications posted; no online portal confirmed. Verify with building dept.",
+   "confidence": "low",
+   "documents": [
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Building Permit Application"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "north-palm-beach",
+   "ahj": "North_Palm_Beach",
+   "name": "North Palm Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.mgoconnect.org/cp/portal",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-841-3365",
+   "notes": "No paper accepted. Complete NPB MGO Contractor Registration (license + insurance) before applying. NOC required for jobs > $5,000.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Roofing Inspection Affidavit",
+    "Roofing Form 200 Tile",
+    "Contractor Registration",
+    "Owner Builder Affidavit",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "NPB Form200 Tile",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "ocean-ridge",
+   "ahj": "Ocean_Ridge",
+   "name": "Ocean Ridge",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.mgoconnect.org/cp/portal",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-732-2635",
+   "notes": "Online submittals via MGO; download current town forms before submitting.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Reroof Hurricane Mitigation Forms",
+    "Roof Metal Sheathing Affidavit",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "pahokee",
+   "ahj": "Pahokee",
+   "name": "Pahokee",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "iWorQ",
+   "portalUrl": "https://pahokee.portal.iworq.net/pahokee/permits/600",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "",
+   "notes": "iWorQ portal confirmed for inspection requests + status; full online application/upload unconfirmed. Forms also on cityofpahokee.com.",
+   "confidence": "low",
+   "documents": [
+    "Roofing Permit Application",
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "palm-beach",
+   "ahj": "Palm_Beach",
+   "name": "Palm Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov EPL Self Service",
+   "portalUrl": "https://townofpalmbeachfl-energovweb.tylerhost.net/apps/selfservice#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-838-5431",
+   "notes": "All apps recommended online. Contractor registration in EPL first. 'Affidavit Roofing' form online. Every submittal needs WC cert listing the Town (or exemption).",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Application for Construction Permit",
+    "Roof Affidavit",
+    "NOBO Form"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "palm-beach-county-unincorporated",
+   "ahj": "Palm_Beach_County",
+   "name": "Unincorporated Palm Beach County",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "",
+   "portalUrl": "",
+   "online": "",
+   "upload": "",
+   "phone": "",
+   "notes": "",
+   "confidence": "low",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Expedited Reroof Checklist and Worksheet"
+   ],
+   "systems": {
+    "Shingle": [
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "palm-beach-gardens",
+   "ahj": "Palm_Beach_Gardens",
+   "name": "Palm Beach Gardens",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov Community Self Service (CSS)",
+   "portalUrl": "https://palmbeachgardensfl-energovweb.tylerhost.net/apps/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-799-4210",
+   "notes": "Register/create CSS account. Plans attached as PDF only; signed/sealed plans digitally signed.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Owner Builder Affidavit",
+    "Inspection Affidavit",
+    "PBG Form200 Concrete Clay Tile Roofing"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "PBG Form200 Tile",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "palm-beach-shores",
+   "ahj": "Palm_Beach_Shores",
+   "name": "Palm Beach Shores",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO Connect)",
+   "portalUrl": "https://www.mgoconnect.org/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-844-3457",
+   "notes": "MGO for online application + uploads; new contractors create a free account.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Sheathing Affidavit",
+    "Tin Tag Shingle Affidavit",
+    "Owner Builder Affidavit"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "palm-springs",
+   "ahj": "Palm_Springs",
+   "name": "Palm Springs",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Maintstar E-Permits",
+   "portalUrl": "https://h9.maintstar.co/palmsprings/portal/",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "561-584-8200 x8460",
+   "notes": "Apply via Maintstar E-Permits. Contractor registration is in-person. Applications must be notarized by owner + contractor. Roofing upload unconfirmed.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Reroofing Form 200 Tile",
+    "Sheathing Affidavit",
+    "Owner's Notification Roofing",
+    "Owner Builder Affidavit"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "riviera-beach",
+   "ahj": "Riviera_Beach",
+   "name": "Riviera Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov Self Service",
+   "portalUrl": "https://rivierabeachfl-energovweb.tylerhost.net/apps/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-845-4020",
+   "notes": "Re-roof package: application, NOC (>$2,500), license/insurance, scope, NOAs. Dedicated roofing inspector.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "royal-palm-beach",
+   "ahj": "Royal_Palm_Beach",
+   "name": "Royal Palm Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Avolve ProjectDox (e-Plan) + Click2Gov",
+   "portalUrl": "https://www.royalpalmbeachfl.gov/308/e-Permits",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-790-5100",
+   "notes": "e-Permits has a 'Contractor Roofing' permit type. PDF uploads supported; follow Building Document Naming Standards.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "RPB Contractor Data Sheet",
+    "RPB High Wind Stipulation Agreement",
+    "RPB Notice of Commencement",
+    "RPB Re Roof Nailing Inspection Affidavit",
+    "RPB Roof Spec Sheet"
+   ],
+   "systems": {
+    "Shingle": [
+     "RPB Roof Spec Sheet Shingle",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "RPB Roof Spec Sheet Tile",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "RPB Roof Spec Sheet Metal",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "RPB Roof Spec Sheet Flat",
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "south-bay",
+   "ahj": "South_Bay",
+   "name": "South Bay",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Paper/in-person",
+   "portalUrl": "https://www.southbaycity.com/planning-and-building/pages/downloadable-forms",
+   "online": "no",
+   "upload": "unknown",
+   "phone": "561-996-6751",
+   "notes": "Downloadable Building + 'Roof Package' permit applications; no online portal found.",
+   "confidence": "low",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Roof Package Permit Applications",
+    "Roofing Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "south-palm-beach",
+   "ahj": "South_Palm_Beach",
+   "name": "South Palm Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://mgoconnect.org/cp/portal",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-588-8889",
+   "notes": "Upload signed application + plans in MGO. NOC must be recorded + certified by PBC Clerk BEFORE submitting (jobs $5,000+).",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Roof Installation Affidavit",
+    "Contractor Registration"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "tequesta",
+   "ahj": "Tequesta",
+   "name": "Tequesta",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "BS&A Online",
+   "portalUrl": "https://bsaonline.com/?uid=2607",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-768-0450",
+   "notes": "Get a BS&A Contractor Web PIN from the Building Dept before applying. Use the Universal Countywide application. Fee based on job value.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Roof Permit Submittal Requirements",
+    "Owner Builder Affidavit",
+    "PBC Reroofing Form 200 Tile"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "TEQ Form200 Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "village-of-golf",
+   "ahj": "Village_of_Golf",
+   "name": "Village of Golf",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Online portal referenced (platform unverified)",
+   "portalUrl": "https://www.villageofgolf.org/building",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "",
+   "notes": "Village references an online permitting portal but platform/login could not be verified (page 403).",
+   "confidence": "low",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "PBC Reroofing Form 200 Tile"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "VG Form200 Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "wellington",
+   "ahj": "Wellington",
+   "name": "Wellington",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Avolve ProjectDox (ePlans); email intake",
+   "portalUrl": "https://www.wellingtonfl.gov/252/Building-Permits",
+   "online": "partial",
+   "upload": "yes",
+   "phone": "561-753-2430",
+   "notes": "Email completed application to BuildingDocs@wellingtonfl.gov; you then receive ProjectDox login to upload plans/PDFs.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "WEL Building Permit Application 8th Ed",
+    "WEL Contractor Registration Packet",
+    "WEL Notice of Commencement",
+    "WEL Owner Builder Affidavit",
+    "WEL Reroof Packet",
+    "WEL Windload Flood Cert"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "west-palm-beach",
+   "ahj": "West_Palm_Beach",
+   "name": "West Palm Beach",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "Tyler EnerGov EPL Civic Access",
+   "portalUrl": "https://permit-planner.wpb.org/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "",
+   "notes": "Civic Access: apply, upload/resubmit plans, pay, schedule inspections. Register with Building Dept (email DS@WPB.ORG license/GL/WC/BTR) separately from the portal profile.",
+   "confidence": "high",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "westlake",
+   "ahj": "Westlake",
+   "name": "Westlake",
+   "county": "Palm Beach",
+   "hvhz": false,
+   "platform": "CityView Portal (Harris/CityView)",
+   "portalUrl": "https://cityviewportal.westlakegov.com/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "561-530-5880 x402",
+   "notes": "Online submission via CityView. Approved plans must be on site for inspector.",
+   "confidence": "medium",
+   "documents": [
+    "Building Permit Application",
+    "Notice of Commencement",
+    "Permit Application Requirements"
+   ],
+   "systems": {
+    "Shingle": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "Roof system specification sheet",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "coconut-creek",
+   "ahj": "Coconut_Creek",
+   "name": "Coconut Creek",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "City ePermits + Broward ePermitsOneStop for county",
+   "portalUrl": "https://www.coconutcreek.gov/sustainable-development/building-department/epermits-tutorial",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-973-6750",
+   "notes": "Register first (email form + PDFs to ebuilding@coconutcreek.gov). Uploads must be unlocked PDFs, right-side-up. HVHZ NOAs as PDFs.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "cooper-city",
+   "ahj": "Cooper_City",
+   "name": "Cooper City",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Accela Citizen Access (ACA)",
+   "portalUrl": "https://aca-prod.accela.com/COOPER/Welcome.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-434-4300",
+   "notes": "Register an ACA account and attach contractor license before applying. HVHZ NOA PDFs uploaded in portal.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "coral-springs",
+   "ahj": "Coral_Springs",
+   "name": "Coral Springs",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "eTRAKiT",
+   "portalUrl": "https://etrakit.coralsprings.gov/etrakit/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-344-1025",
+   "notes": "Register with City, pick contractor name from eTRAKiT dropdown. Re-roof package: wind calcs, NOAs, roof plans, signed owner+contractor app, license+insurance. Dedicated Roofers Application Packet.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions",
+    "Roofers Application Packet"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "dania-beach",
+   "ahj": "Dania_Beach",
+   "name": "Dania Beach",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Tyler eSuite + Broward ePermitsOneStop for county",
+   "portalUrl": "https://cityofdaniabeachfl.nwerp.tylerapp.com/nwprod/eSuite.Permits/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-924-6805",
+   "notes": "City-registered contractors activate online account (call 954-924-6805 x3751). Re-roof: Roofing Application + Owner's Notification + Broward asbestos statement. HVHZ NOAs uploaded.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "davie",
+   "ahj": "Davie",
+   "name": "Davie",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Avolve OAS (submittals, req. since 1/12/2026) + Tyler eSuite (lookup/inspections)",
+   "portalUrl": "https://davie-fl-us.avolvecloud.com/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-797-1111",
+   "notes": "OAS (Avolve) required for submittals incl. contractor registration. eSuite for permit lookup/inspections. HVHZ NOAs via OAS.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "deerfield-beach",
+   "ahj": "Deerfield_Beach",
+   "name": "Deerfield Beach",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward County ePermitsOneStop (admin by CAP Government)",
+   "portalUrl": "https://www.broward.org/ePermits/Pages/Default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-480-4250",
+   "notes": "Building dept services contracted to CAP. Re-roof: Roofing Application & Forms (owner signature) + Broward Asbestos Statement. HVHZ NOAs uploaded in OneStop.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "fort-lauderdale",
+   "ahj": "Fort_Lauderdale",
+   "name": "Fort Lauderdale",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "LauderBuild (Accela ACA) + LauderBuild Plan Room",
+   "portalUrl": "https://aca-prod.accela.com/FTL/Default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-828-6520",
+   "notes": "Since 1/1/2024 ALL submissions via LauderBuild (no paper). Register LP/Contractor online via Wizard. Upload HVHZ NOAs + wind calcs to the Plan Room.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "hallandale-beach",
+   "ahj": "Hallandale_Beach",
+   "name": "Hallandale Beach",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward County ePermitsOneStop",
+   "portalUrl": "https://www.hallandalebeachfl.gov/1317/ePermitsOneStop",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-457-2220",
+   "notes": "All docs submitted online via OneStop. HVHZ Uniform Roofing Application + Mitigation forms. NOA PDFs uploaded.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "hillsboro-beach",
+   "ahj": "Hillsboro_Beach",
+   "name": "Hillsboro Beach",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Community Core (limited) — else email PDF",
+   "portalUrl": "https://app.communitycore.com/app/public-portal/c98c7b46-2cba-4ba2-bbd5-7a76966f42dd",
+   "online": "partial",
+   "upload": "partial",
+   "phone": "954-427-4011",
+   "notes": "Portal online-submission limited to water heater/AC/electrical only; re-roof = scan to a single PDF and email HBONLINE@cgasolutions.com.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "hollywood",
+   "ahj": "Hollywood",
+   "name": "Hollywood",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward ePermitsOneStop + Accela ACA (city)",
+   "portalUrl": "https://www.hollywoodfl.org/1201/Broward-County-ePermitsOneStop",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-921-3335",
+   "notes": "Two systems (BCLA + Accela). Via OneStop, apps route to Broward County before city plan review. For Accela, register with City + create account. HVHZ NOAs uploaded.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions",
+    "City Notice of Commencement"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lauderdale-by-the-sea",
+   "ahj": "Lauderdale_By_The_Sea",
+   "name": "Lauderdale-By-The-Sea",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward ePermitsOneStop (services by CAP Government)",
+   "portalUrl": "https://www.broward.org/ePermits/Pages/Default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-640-4215",
+   "notes": "Re-roof via OneStop (files LBTS + county in one workflow). HVHZ NOA/roof plan/calc package. NOC required if contract > $5,000, recorded before first inspection.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lauderdale-lakes",
+   "ahj": "Lauderdale_Lakes",
+   "name": "Lauderdale Lakes",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward ePermitsOneStop",
+   "portalUrl": "https://www.broward.org/ePermits/Pages/Default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-535-2480",
+   "notes": "Submit/upload/track/inspect via OneStop. City has a Contractor Registration form. HVHZ NOA/roof plan package.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lauderhill",
+   "ahj": "Lauderhill",
+   "name": "Lauderhill",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Unverified (page 403; may use Broward OneStop)",
+   "portalUrl": "",
+   "online": "unknown",
+   "upload": "unknown",
+   "phone": "",
+   "notes": "No dedicated portal confirmed. Roof calc package needs NOAs + roof plan. Building Division at 3300 Inverrary Blvd. Confirm process directly.",
+   "confidence": "low",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "village-of-lazy-lake",
+   "ahj": "Lazy_Lake",
+   "name": "Village of Lazy Lake",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward County (no municipal portal)",
+   "portalUrl": "",
+   "online": "unknown",
+   "upload": "unknown",
+   "phone": "",
+   "notes": "Tiny enclave (~33 ppl); permits effectively via Broward County Building Code Services. Contact Village to confirm.",
+   "confidence": "low",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "lighthouse-point",
+   "ahj": "Lighthouse_Point",
+   "name": "Lighthouse Point",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "SmartGov portal (also references Broward OneStop)",
+   "portalUrl": "https://ci-lighthousepoint-fl.smartgovcommunity.com/Public/Home",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "954-943-6509",
+   "notes": "Register with City before applying (license, WC/exemption, GL naming City). Historically in-person pickup; confirm whether re-roof fully submits/uploads online via SmartGov.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "margate",
+   "ahj": "Margate",
+   "name": "Margate",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Avolve ProjectDox (also Broward OneStop for county)",
+   "portalUrl": "https://margate-fl-us.avolvecloud.com/Portal/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-970-3004",
+   "notes": "New submittals ONLY electronic via ProjectDox. Roof product approvals reviewed/approved by designer of record (HVHZ NOA).",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "miramar",
+   "ahj": "Miramar",
+   "name": "Miramar",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Accela Citizen Access (ACA)",
+   "portalUrl": "https://www.miramarfl.gov/Departments/Building-Planning-Zoning/Building-Permits-Inspections/Online-Permitting",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-602-4357",
+   "notes": "100% online via Accela. Re-roof under Residential Quick Service (streamlined). HVHZ roofing package/NOA required. (Direct ACA login not verified — page 403.)",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "north-lauderdale",
+   "ahj": "North_Lauderdale",
+   "name": "North Lauderdale",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Tyler EnerGov Citizen Self Service (CSS)",
+   "portalUrl": "https://nlselfservice.nlauderdale.org/Energov_prod/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-724-7069",
+   "notes": "Roof calc package: NOAs + roof plan; permit signed by owner + trade contractor; license & insurance. CSS for permits/plans/invoices/inspections.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "oakland-park",
+   "ahj": "Oakland_Park",
+   "name": "Oakland Park",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Tyler EnerGov CSS",
+   "portalUrl": "https://oaklandparkfl-energovweb.tylerhost.net/apps/SelfService#/home",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-630-4350",
+   "notes": "PDF only (combine plan docs into one PDF; app separate; no encryption). Register contractor via CSS (email building@oaklandparkfl.gov). Broward Uniform/HVHZ Roofing app. NOC required jobs > $2,500, recorded at Broward BEFORE submitting.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "parkland",
+   "ahj": "Parkland",
+   "name": "Parkland",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "MyGovernmentOnline (MGO)",
+   "portalUrl": "https://www.mgoconnect.org/cp/portal",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-753-5040",
+   "notes": "Submit/inspect via MGO; doc naming conventions for drawings. Re-register MGO account w/ COI, WC, license. Roof calc package: NOAs + roof plan (HVHZ).",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "pembroke-park",
+   "ahj": "Pembroke_Park",
+   "name": "Pembroke Park",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Gov-Easy",
+   "portalUrl": "https://www.tppfl.gov/building-department/pages/online-permitting-system",
+   "online": "partial",
+   "upload": "unknown",
+   "phone": "954-966-4600",
+   "notes": "Roofing needs Miami-Dade NOAs and/or FL Product Approval (HVHZ). Broward Uniform application by licensed roofer. Register with Town first. NOC if contract > $5,000.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "pembroke-pines",
+   "ahj": "Pembroke_Pines",
+   "name": "Pembroke Pines",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Tyler EnerGov Development Hub (Self Service)",
+   "portalUrl": "https://pembrokepinesfl-energovweb.tylerhost.net/apps/selfservice#/applicationAssistant",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-435-6502",
+   "notes": "Roof calc package: NOAs + roof plan; plans digitally signed/sealed, uploaded per trade as separate PDFs. Register by emailing cert/license + GL + WC to pinespermits@cgasolutions.com (admin by CGA).",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions",
+    "City Permit Application"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "plantation",
+   "ahj": "Plantation",
+   "name": "Plantation",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Accela Citizen Access (ACA)",
+   "portalUrl": "https://aca.plantation.org/CitizenAccess/Default.aspx/",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-797-2765",
+   "notes": "Re-nailing inspection NOT required on re-roof. Roof plans need truss layout/engineering + designer approval (Broward Truss Policy). Register with City (state + Broward competency license + GL/WC naming City). Plan-review comments in ACA.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "pompano-beach",
+   "ahj": "Pompano_Beach",
+   "name": "Pompano Beach",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Click2Gov (apply/pay) + Avolve ProjectDox (ePlan)",
+   "portalUrl": "https://c2g.pompanobeachfl.gov/Click2GovBP/index.html",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-786-4600",
+   "notes": "'One permit' approach (roofing under one permit). Upload all docs as PDF; review in ePlan. No Click2Gov account needed to start. License/insurance must be current online before issuance.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions",
+    "City Building Permit Application"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "sea-ranch-lakes",
+   "ahj": "Sea_Ranch_Lakes",
+   "name": "Sea Ranch Lakes",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Unverified (in-person/county-coordinated)",
+   "portalUrl": "",
+   "online": "unknown",
+   "upload": "unknown",
+   "phone": "",
+   "notes": "Tiny village; no municipal portal verified. HVHZ roof package: NOAs + roof plan + signed/stamped truss drawings. Recorded NOC + 2 certified copies required pre-submittal (unless < $2,500).",
+   "confidence": "low",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "southwest-ranches",
+   "ahj": "Southwest_Ranches",
+   "name": "Southwest Ranches",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Broward ePermitsOneStop (services by CAP Government)",
+   "portalUrl": "https://www.broward.org/ePermits/Pages/default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-434-0008",
+   "notes": "Permitting by CAP Government. Via ePermits, apply for both town + county permits in one process. Roof package: NOAs + roof plan; license & insurance on every submittal.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "sunrise",
+   "ahj": "Sunrise",
+   "name": "Sunrise",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Self-Service Portal + e-Plan Review (vendor unconfirmed)",
+   "portalUrl": "https://www.sunrisefl.gov/openforbusiness",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-572-2354",
+   "notes": "24/7 self-service + e-Plan Review for paperless submittal + inspection scheduling. Simple re-roofs typically issued ~2 days.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "tamarac",
+   "ahj": "Tamarac",
+   "name": "Tamarac",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Click2Gov (ePermits/pay) + Avolve (ePlan)",
+   "portalUrl": "https://e-gov.tamarac.org/Click2GovBP/index.html",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-597-3420",
+   "notes": "All permits electronic. ePlan via Avolve ('Drawings & Documents Upload Guide'). As of 3/9/2026 only the current Broward uniform application accepted. Roofing package checklist on tamarac.gov.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "west-park",
+   "ahj": "West_Park",
+   "name": "West Park",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "CitizenServe (services by CAP Government)",
+   "portalUrl": "https://www.citizenserve.com/westpark",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-989-2688",
+   "notes": "Online apps via Citizenserve (CAP Government). Roof package: NOAs + roof plan; trade apps signed by owner + contractor; license & insurance.",
+   "confidence": "medium",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "weston",
+   "ahj": "Weston",
+   "name": "Weston",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "Accela Citizen Access (ePermits)",
+   "portalUrl": "https://aca-prod.accela.com/weston/Default.aspx",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-385-0500",
+   "notes": "24/7 ePermits one-stop. Product approvals required for roofs. Weekly virtual portal training offered.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  },
+  {
+   "slug": "wilton-manors",
+   "ahj": "Wilton_Manors",
+   "name": "Wilton Manors",
+   "county": "Broward",
+   "hvhz": true,
+   "platform": "CitizenServe",
+   "portalUrl": "https://www.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=125",
+   "online": "yes",
+   "upload": "yes",
+   "phone": "954-390-2180",
+   "notes": "Apply + schedule inspections online via Citizenserve (Online Services > Building Permits). Roof package: NOAs + roof plan; trade apps signed by owner + contractor; license & insurance.",
+   "confidence": "high",
+   "documents": [
+    "Uniform Building Permit Application",
+    "Notice of Commencement",
+    "HVHZ Uniform Roofing Application",
+    "HVHZ Owner's Notification FBC1524",
+    "FDEP Asbestos Notification",
+    "Asbestos SRRA Instructions",
+    "Broward SRRA Instructions"
+   ],
+   "systems": {
+    "Shingle": [
+     "HVHZ Roofing System A/B Shingle",
+     "HVHZ Section D Shingle",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each shingle roof component"
+    ],
+    "Tile": [
+     "HVHZ Roofing System A/B Tile",
+     "HVHZ Section D Tile",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each tile roof component"
+    ],
+    "Metal": [
+     "HVHZ Roofing System A/B Metal",
+     "HVHZ Section D Metal",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each metal roof component"
+    ],
+    "Flat": [
+     "HVHZ Roofing System A/B Flat",
+     "HVHZ Section C BUR Flat",
+     "HVHZ Section C Flat Concrete Deck Insulated",
+     "HVHZ Section C Flat Hot Mop BUR Concrete Deck",
+     "HVHZ Section C Flat Hot Mop BUR Wood Deck",
+     "HVHZ Section C Flat Steel Deck Insulated",
+     "HVHZ Section C Flat Wood Deck Insulated",
+     "Product approvals (Florida Product Approval / Miami-Dade NOA) for each flat roof component"
+    ]
+   }
+  }
+ ]
+}

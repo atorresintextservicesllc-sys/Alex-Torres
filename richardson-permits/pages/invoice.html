@@ -1,0 +1,25 @@
+<!--
+{"path": "/invoice", "title": "Invoice", "description": "View and pay your invoice.", "noindex": true, "data": true, "scripts": ["/billing.js"]}
+-->
+<section class="section section--tight">
+  <div class="container invoice-page">
+    <div class="btn-row no-print invoice-page__tools">
+      <button type="button" class="btn btn--ghost" data-print>{{icon file}}Print / save as PDF</button>
+      <a class="btn btn--ghost" href="#paid">I've sent payment</a>
+    </div>
+    <div id="invoice-view"><p class="muted">Loading invoice…</p></div>
+
+    <section class="card no-print paid-card" id="paid">
+      <h2>Sent a payment?</h2>
+      <p class="muted">Let us know so we can match it to this invoice. Payments are only ever made to <strong>{{payments.zelle}}</strong>. If anyone asks you to pay somewhere else, call us at {{phone}}.</p>
+      <form id="paid-form" class="form">
+        <div class="field field--half"><label for="pd-inv">Invoice #</label><input id="pd-inv" name="invoice" required></div>
+        <div class="field field--half"><label for="pd-amt">Amount sent ($)</label><input id="pd-amt" name="amount" type="number" step="0.01" min="0" required></div>
+        <div class="field field--half"><label for="pd-m">Method</label><select id="pd-m" name="method"><option>Zelle</option><option>ACH</option><option>Card</option><option>Check</option></select></div>
+        <div class="field field--half"><label for="pd-n">Your name</label><input id="pd-n" name="name" required autocomplete="name"></div>
+        <div class="field"><button class="btn btn--primary" type="submit">Notify {{name}}</button></div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+</section>
