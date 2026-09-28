@@ -1,0 +1,58 @@
+<!--
+{"path": "/admin", "title": "Staff dashboard", "description": "Staff dashboard.", "noindex": true, "app": true, "scripts": ["/app.js", "/admin.js"]}
+-->
+<section class="section section--tight app">
+  <div class="container">
+
+    <div id="login-view" hidden>
+      <div class="form-card app-login">
+        <p class="eyebrow">Staff</p>
+        <h1>Sign in</h1>
+        <form id="login-form" class="form">
+          <div class="field"><label for="lg-name">Your name</label><input id="lg-name" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="lg-pw">Password</label><input id="lg-pw" name="password" type="password" autocomplete="current-password" required></div>
+          <div class="field"><button class="btn btn--primary btn--block" type="submit">Sign in</button></div>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+
+    <div id="dash-view" hidden>
+      <div class="app-head">
+        <div><p class="eyebrow">Staff dashboard</p><h1>Projects</h1></div>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href="/billing">Invoices</a>
+          <button class="btn btn--primary" type="button" id="new-btn">+ New project</button>
+          <button class="btn btn--ghost" type="button" id="logout">Sign out</button>
+        </div>
+      </div>
+      <p class="notice" id="storage-note" hidden></p>
+
+      <form id="new-form" class="form-card app-new" hidden>
+        <h2>New project</h2>
+        <div class="form">
+          <div class="field field--half"><label for="n-company">Client company</label><input id="n-company" name="company" required></div>
+          <div class="field field--half"><label for="n-name">Contact name</label><input id="n-name" name="name"></div>
+          <div class="field field--half"><label for="n-email">Email</label><input id="n-email" name="email" type="email"></div>
+          <div class="field field--half"><label for="n-phone">Mobile</label><input id="n-phone" name="phone" type="tel"></div>
+          <div class="field field--half"><label for="n-address">Job address</label><input id="n-address" name="address"></div>
+          <div class="field field--half"><label for="n-city">City / municipality</label><input id="n-city" name="city"></div>
+          <div class="field field--half"><label for="n-type">Permit type</label>
+            <select id="n-type" name="type"><option>Re-roof</option><option>New roof</option><option>Restoration / build-back</option><option>Alteration / remodel</option><option>Plumbing</option><option>Electrical</option><option>New construction</option><option>Solar</option><option>Windows &amp; doors</option><option>Other</option></select></div>
+          <div class="field field--half"><label for="n-county">County</label><select id="n-county" name="county"><option>Palm Beach</option><option>Broward</option><option>Miami-Dade</option></select></div>
+          <div class="field"><button class="btn btn--primary" type="submit">Create project</button></div>
+        </div>
+      </form>
+
+      <div class="app-tools">
+        <input id="search" type="search" placeholder="Search client, address, city…" aria-label="Search projects">
+        <select id="status-filter" aria-label="Filter by status"><option value="">All statuses</option></select>
+      </div>
+      <div class="table-wrap"><table class="app-table">
+        <thead><tr><th>Client</th><th>Job</th><th>Status</th><th class="num">Waiting on</th><th>Updated</th></tr></thead>
+        <tbody id="projects"></tbody>
+      </table></div>
+    </div>
+
+  </div>
+</section>

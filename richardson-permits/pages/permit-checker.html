@@ -1,0 +1,36 @@
+<!--
+{"path": "/permit-checker", "title": "Roofing Permit Requirements Checker (Palm Beach & Broward)", "description": "Free tool: pick your South Florida city and roof type to see the permit forms, roof-system documents and product approvals you need, and whether you can file online.", "priority": 0.9, "scripts": ["/checker.js"]}
+-->
+<section class="page-hero">
+  {{> heroImg plans2}}
+  <div class="container">
+    <p class="eyebrow">Free tool</p>
+    <h1>What do I need for my roofing permit?</h1>
+    <p class="lead">Pick the city and roof type. We'll list the forms, roof-system documents and approvals the building department expects.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <form class="form-card checker" id="checker" onsubmit="return false">
+      <div class="form">
+        <div class="field field--half"><label for="ck-city">City / municipality</label>
+          <input id="ck-city" list="ck-cities" placeholder="Start typing, e.g. Boca Raton" autocomplete="off"><datalist id="ck-cities"></datalist></div>
+        <div class="field field--half"><label for="ck-system">Roof type</label>
+          <select id="ck-system"><option>Shingle</option><option>Tile</option><option>Metal</option><option>Flat</option></select></div>
+      </div>
+    </form>
+    <div id="ck-result" aria-live="polite"></div>
+    <noscript><p>Browse the <a href="/permits">city-by-city permit guide</a> instead.</p></noscript>
+  </div>
+</section>
+
+<section class="section section--alt section--tight">
+  <div class="container split split--center">
+    <div>
+      <h2>Rather not deal with it?</h2>
+      <p class="lead">Send us the job. We prep every form on the list, submit, clear plan-review comments, and hand you an issued permit. Flat fee.</p>
+    </div>
+    <div class="btn-row"><a class="btn btn--primary" href="/contact">Start a permit</a><a class="btn btn--ghost" href="/pricing">See pricing</a></div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+<!--
+{"path": "/pay", "title": "Pay an Invoice", "description": "Pay a Richardson Professional Services LLC invoice by Zelle, ACH or card, and let us know it's sent.", "priority": 0.5, "data": true, "scripts": ["/billing.js"]}
+-->
+<section class="page-hero">
+  {{> heroImg paper}}
+  <div class="container">
+    <p class="eyebrow">Payments</p>
+    <h1>Pay an invoice</h1>
+    <p class="lead">Your invoice link shows the exact amount due. Here's how to pay, and how to let us know it's on the way.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <div class="pay-method card">
+        <div class="card__icon">{{icon zap}}</div>
+        <h2>Zelle (preferred)</h2>
+        <p>Send to <strong>{{payments.zelle}}</strong> ({{payments.zelleName}}). Put your <strong>invoice #</strong> in the memo.</p>
+        <div class="copy-row"><code>{{payments.zelle}}</code><button type="button" class="btn btn--ghost" data-copy="{{=payments.zelle}}">Copy</button></div>
+      </div>
+      <div class="pay-method card">
+        <div class="card__icon">{{icon building}}</div>
+        <h2>ACH bank transfer</h2>
+        <p>{{payments.ach}}</p>
+      </div>
+      {{#if payments.cardLink}}<div class="pay-method card">
+        <div class="card__icon">{{icon shield}}</div>
+        <h2>Card</h2>
+        <p>Pay securely by card and enter the amount due on your invoice.</p>
+        <a class="btn btn--primary" href="{{=payments.cardLink}}" rel="noopener" target="_blank">Pay by card</a>
+      </div>{{/if}}
+      <p class="muted">{{payments.terms}}</p>
+    </div>
+
+    <div class="form-card">
+      <h2>Tell us you've paid</h2>
+      <p class="muted">We'll match your payment to the invoice and confirm by text or email.</p>
+      <form id="pay-form" class="form">
+        <div class="field field--half"><label for="py-inv">Invoice #</label><input id="py-inv" name="invoice" required></div>
+        <div class="field field--half"><label for="py-amt">Amount sent ($)</label><input id="py-amt" name="amount" type="number" step="0.01" min="0" required></div>
+        <div class="field field--half"><label for="py-m">Method</label><select id="py-m" name="method"><option>Zelle</option><option>ACH</option><option>Card</option><option>Check</option></select></div>
+        <div class="field field--half"><label for="py-n">Your name / company</label><input id="py-n" name="name" required></div>
+        <div class="field"><label for="py-note">Note (optional)</label><textarea id="py-note" name="note" rows="3"></textarea></div>
+        <div class="field"><button class="btn btn--primary btn--block" type="submit">Send payment notice</button></div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>

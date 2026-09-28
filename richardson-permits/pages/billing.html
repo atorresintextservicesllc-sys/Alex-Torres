@@ -1,0 +1,96 @@
+<!--
+{"path": "/billing", "title": "Invoice builder", "description": "Create and send invoices.", "noindex": true, "data": true, "scripts": ["/billing.js"]}
+-->
+<section class="section section--tight billing">
+  <div class="container">
+    <div class="billing__head">
+      <div>
+        <p class="eyebrow">Private · not linked from the site</p>
+        <h1>Invoice builder</h1>
+        <p class="muted">Build an invoice from your price list, then send the client a link where they can view, print and pay it. Your invoice log is saved in <strong>this browser</strong>. Use Backup regularly.</p>
+      </div>
+      <button type="button" class="btn btn--ghost" id="new-invoice">New invoice</button>
+    </div>
+    <p class="notice" id="storage-warning" hidden>This browser is blocking storage (private window?), so drafts and the invoice log won't be saved.</p>
+
+    <div class="billing__grid">
+      <form id="invoice-builder" class="form-card billing__form" novalidate>
+        <fieldset>
+          <legend>Invoice</legend>
+          <div class="form">
+            <div class="field field--half"><label for="b-n">Invoice #</label><input id="b-n" name="n" required></div>
+            <div class="field field--half"><label for="b-k">Type</label>
+              <select id="b-k" name="k">
+                <option value="full">Invoice (full amount)</option>
+                <option value="deposit">Deposit invoice (start of work)</option>
+                <option value="balance">Final invoice (balance after deposit)</option>
+                <option value="retainer">Retainer invoice (monthly, in advance)</option>
+              </select></div>
+            <div class="field field--half"><label for="b-d">Date</label><input id="b-d" name="d" type="date" required></div>
+            <div class="field field--half"><label for="b-due">Due</label><input id="b-due" name="due" type="date"><small>Leave blank for "on receipt"</small></div>
+            <div class="field field--half" id="dep-wrap"><label for="b-dep">Deposit %</label><input id="b-dep" name="dep" type="number" min="1" max="100" value="50"></div>
+            <div class="field field--half" id="paid-wrap"><label for="b-paid">Payments already received ($)</label><input id="b-paid" name="paid" type="number" min="0" step="0.01" placeholder="e.g. deposit paid"></div>
+            <div class="field field--half"><label for="b-disc">Volume discount (%)</label><input id="b-disc" name="disc" type="number" min="0" max="50" step="1" placeholder="0"><small>Applies to the fixed-price lines, not % add-ons</small></div>
+            <div class="field field--half"><label for="b-proj">Project / reference</label><input id="b-proj" name="proj" placeholder="e.g. September permits"></div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Bill to</legend>
+          <div class="form">
+            <div class="field field--half"><label for="b-c">Company</label><input id="b-c" name="c" list="clients" autocomplete="off"><datalist id="clients"></datalist></div>
+            <div class="field field--half"><label for="b-nm">Contact name</label><input id="b-nm" name="nm"></div>
+            <div class="field field--half"><label for="b-e">Email</label><input id="b-e" name="e" type="email"></div>
+            <div class="field field--half"><label for="b-p">Mobile</label><input id="b-p" name="p" type="tel"></div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Line items</legend>
+          <p class="muted small">Pick a service from your price list (or Custom), then add the job address or permit # to the description. Hourly work: put hours in Qty.</p>
+          <div class="table-wrap"><table class="items-table">
+            <thead><tr><th>Service / description</th><th>Qty</th><th>Rate</th><th></th></tr></thead>
+            <tbody id="items"></tbody>
+          </table></div>
+          <button type="button" class="btn btn--ghost" id="add-line">+ Add line</button>
+        </fieldset>
+
+        <fieldset>
+          <legend>Note to client</legend>
+          <div class="field"><label for="b-note" class="sr-only">Note</label><textarea id="b-note" name="note" rows="3" placeholder="Optional, e.g. thank-you note or scope details"></textarea></div>
+        </fieldset>
+
+        <div class="billing__actions">
+          <button type="button" class="btn btn--primary" id="make-link">Create invoice link</button>
+          <button type="button" class="btn btn--dark" id="email-link">{{icon mail}}Email it</button>
+          <button type="button" class="btn btn--dark" id="text-link">{{icon message}}Text it</button>
+        </div>
+        <div class="link-out" id="link-out" hidden>
+          <p><strong>Invoice link ready</strong>, amount due <strong id="link-amount"></strong>. It's saved to your log below.</p>
+          <input id="link-url" readonly aria-label="Invoice link">
+          <div class="btn-row"><button type="button" class="btn btn--ghost" id="copy-link">Copy link</button><button type="button" class="btn btn--ghost" id="open-link">Open</button></div>
+        </div>
+      </form>
+
+      <div class="billing__preview">
+        <p class="eyebrow">Live preview</p>
+        <div id="preview"></div>
+      </div>
+    </div>
+
+    <section class="billing__log">
+      <div class="billing__head">
+        <div><h2>Invoice log</h2><p class="muted" id="log-summary"></p></div>
+        <div class="btn-row">
+          <button type="button" class="btn btn--ghost" id="export-csv">Export CSV</button>
+          <button type="button" class="btn btn--ghost" id="backup">Backup</button>
+          <label class="btn btn--ghost">Restore<input type="file" id="restore" accept="application/json" hidden></label>
+        </div>
+      </div>
+      <div class="table-wrap"><table class="log-table">
+        <thead><tr><th>Invoice</th><th>Client</th><th class="num">Due</th><th>Status</th><th></th></tr></thead>
+        <tbody id="log-body"></tbody>
+      </table></div>
+    </section>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+<!--
+{"path": "/contact", "title": "Start a Permit", "description": "Send us your job to get a permit started: GC, roofing, restoration and solar permits in Broward, Miami-Dade and Palm Beach.", "priority": 0.9}
+-->
+<section class="page-hero">
+  {{> heroImg draft}}
+  <div class="container">
+    <p class="eyebrow">Start a permit</p>
+    <h1>Send us the job</h1>
+    <p class="lead">Fill this out and we'll call you back to confirm what's needed. In a hurry? Call or text us.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split--wide-left">
+    <div class="form-card">
+      <h2>Permit intake</h2>
+      <p class="muted">Fields marked <span class="req">*</span> are required. We'll ask for plans and documents after we talk.</p>
+      {{> leadForm}}
+    </div>
+    <aside>
+      <h2>Reach us directly</h2>
+      <ul class="contact-list">
+        {{#if tel}}<li><a href="{{=tel}}" data-track="call_click"><span class="card__icon">{{icon phone}}</span><span>{{phone}}<small>Call</small></span></a></li>{{else}}<li><span><span class="card__icon">{{icon phone}}</span>{{phone}}</span></li>{{/if}}
+        {{#if sms}}<li><a href="{{=sms}}" data-track="text_click"><span class="card__icon">{{icon message}}</span><span>Text us<small>The fastest way to reach us</small></span></a></li>{{/if}}
+        {{#if email}}<li><a href="mailto:{{=email}}"><span class="card__icon">{{icon mail}}</span><span>{{email}}<small>Email plans and documents</small></span></a></li>{{else}}<li><span><span class="card__icon">{{icon mail}}</span>{{email}}</span></li>{{/if}}
+        <li><span><span class="card__icon">{{icon clock}}</span><span>{{hours}}<small>Office hours</small></span></span></li>
+        <li><span><span class="card__icon">{{icon map}}</span><span>{{areaText}}<small>Service area</small></span></span></li>
+      </ul>
+      {{> map}}
+    </aside>
+  </div>
+</section>

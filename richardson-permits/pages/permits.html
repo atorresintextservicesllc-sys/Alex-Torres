@@ -1,0 +1,33 @@
+<!--
+{"path": "/permits", "title": "South Florida Roofing Permit Requirements by City", "description": "Roofing permit requirements for every city in Palm Beach and Broward County: forms, roof-system documents, HVHZ rules, online portals. From a South Florida permit runner.", "priority": 0.9}
+-->
+<section class="page-hero">
+  {{> heroImg plans}}
+  <div class="container">
+    <p class="eyebrow">Permit guide</p>
+    <h1>Roofing permit requirements by city</h1>
+    <p class="lead">{{> jCount}} Palm Beach and Broward County jurisdictions: the forms each one wants, whether you can file online, and HVHZ rules.</p>
+    <div class="btn-row" style="margin-top:24px"><a class="btn btn--primary" href="/permit-checker">Use the permit checker {{icon arrow}}</a><a class="btn btn--ghost" href="/contact">Have us pull it</a></div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="app-tools"><input id="jsearch" type="search" placeholder="Find your city…" aria-label="Find your city"></div>
+    <div id="jindex">{{> jIndex}}</div>
+    <p class="muted small mt">Guides reflect our permit library and public building-department information as of {{> jUpdated}}. Always confirm current requirements before filing. We do this on every job we run.</p>
+  </div>
+</section>
+
+<script>
+  (() => {
+    const q = document.getElementById('jsearch');
+    q.addEventListener('input', () => {
+      const v = q.value.trim().toLowerCase();
+      document.querySelectorAll('#jindex li').forEach((li) => { li.hidden = !!v && !li.textContent.toLowerCase().includes(v); });
+      document.querySelectorAll('#jindex section').forEach((s) => { s.hidden = ![...s.querySelectorAll('li')].some((li) => !li.hidden); });
+    });
+  })();
+</script>
+
+{{> ctaBand}}

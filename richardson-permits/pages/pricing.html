@@ -1,0 +1,40 @@
+<!--
+{"path": "/pricing", "title": "Flat-Fee Permit Expediting Pricing", "description": "Flat-fee permit expediting in South Florida: building permits from $450, trade permits $300, inspections through close-out $200, NOC recording, contractor registration and notary services.", "priority": 0.9}
+-->
+<section class="page-hero">
+  {{> heroImg paper}}
+  <div class="container">
+    <p class="eyebrow">Pricing</p>
+    <h1>Flat fees. Know your cost up front.</h1>
+    <p class="lead">One price per permit or per service. City and county fees are paid separately, at cost.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="price-grid">
+      {{> priceTables}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="retainers">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <p class="eyebrow">Retainers &amp; volume</p>
+      <h2>Pulling permits every month? Save with a plan.</h2>
+      <p class="lead">Predictable monthly billing, priority handling, and a lower rate per permit or per hour.</p>
+    </div>
+    {{> retainers}}
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container grid grid--3">
+    <div class="card"><h3>Included in every flat fee</h3>{{> list pricing.included}}</div>
+    <div class="card"><h3>Not included</h3>{{> list pricing.excluded "checks checks--x" x}}</div>
+    <div class="card"><h3>Payment terms</h3>{{> list pricing.terms}}<p class="mt"><a href="/pay">Pay an invoice →</a></p><p class="mt">Approval times are set by each city or county. We submit promptly and follow up regularly, but we can't guarantee approval dates.</p></div>
+  </div>
+</section>
+
+{{> ctaBand}}
